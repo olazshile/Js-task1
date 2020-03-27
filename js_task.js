@@ -15,7 +15,9 @@ console.log("COURSES OFFERED: " + courses_offd[0] + "\, " + courses_offd[1] + "\
 //program to find and display all even numbers from 1-200 (inclusive)
 
 console.log("Even numbers from 1-200 ");
-    for(index = 2; index <= 200; ){
-     console.log(index);
-     index += 2;   
+    for(index = 1; index <= 200; ){
+        if(index % 2 == 0){
+            console.log(index);
+          }  
+        index++;   
     }
