@@ -6,18 +6,20 @@ var index;
 
 var courses_offd = ["HTML", "CSS", "JAVASCRIPT", "UX/UI"];
                         
-console.log("NAME: " + name);
+document.write("<b>NAME: </b>" + name + "<br>");
 
-console.log("COURSES OFFERED: " + courses_offd[0] + "\, " + courses_offd[1] + "\, " 
-                                + courses_offd[2] + "\, " + courses_offd[3]);
+document.write("<br><b> COURSES OFFERED: </b>" + courses_offd[0] + "\, " 
+                                               + courses_offd[1] + "\, " 
+                                               + courses_offd[2] + "\, " 
+                                               + courses_offd[3] + "<br>");
 
 
 //program to find and display all even numbers from 1-200 (inclusive)
 
-console.log("Even numbers from 1-200 ");
+document.write("<br><b> Even numbers from 1-200 </b> <br>");
     for(index = 1; index <= 200; ){
         if(index % 2 == 0){
-            console.log(index);
-          }  
+            document.write(index + " ");
+            }  
         index++;   
     }
